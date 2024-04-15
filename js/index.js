@@ -6,7 +6,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const form = document.getElementById('github-form');
     const userList = document.getElementById('user-list');
     const reposList = document.getElementById('repos-list');
-  
+//   event listener for submit 
     form.addEventListener('submit', async (event) => {
       event.preventDefault();
       const searchTerm = document.getElementById('search').value.trim();
